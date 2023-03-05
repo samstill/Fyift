@@ -1,9 +1,13 @@
+import Login from "./Registration/Login";
+import Register from "./Registration/Registration";
+
 
 
 function App() {
   return (
     <div className="App">
-      Home
+      <Login/>
+      <Register/>
     </div>
   );
 }
